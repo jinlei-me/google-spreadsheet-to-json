@@ -1,6 +1,6 @@
 
 var fs = require('fs')
-var GoogleSpreadsheet = require('google-spreadsheet')
+var { GoogleSpreadsheet } = require('google-spreadsheet')
 var Promise = require('bluebird')
 
 // constants used for converting column names into number/index
